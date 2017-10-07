@@ -1,0 +1,54 @@
+body,html{
+	font-family:Tahoma;
+	font-size:13px;
+}
+/*-------main----------*/
+#main{
+	margin:0 auto;
+	width:700px;
+}
+#main h1 {
+	text-transform:uppercase;
+	text-align:center;
+}
+#main ul li {
+	font-family:consolas;
+}
+/*-----icon-------*/
+.icon-button {
+  
+    margin: 20px 17px 20px 20px;
+}
+
+button {
+    height: 73px;
+    border-radius: 3.3em;
+    margin: 4px;
+    width: 73px;
+    border: none;
+}
+.icon{
+	background-image: url('../img/icon.png');
+	background-repeat: no-repeat;
+}
+.icon-facebook{
+	background-position: -5px -5px;
+}
+.icon-twie{
+	background-position: -87px -7px;
+}
+.icon-google{
+	background-position: -163px -9px;
+}
+.icon-in{
+	background-position: -241px -9px;
+}
+.icon-youtube{
+	background-position: -318px -9px;
+}
+.icon-insut{
+	background-position: -397px -9px;
+}
+.icon-prih{
+	background-position: -477px -9px;
+}
