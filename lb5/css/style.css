@@ -1,0 +1,155 @@
+body,html{
+    font-family: Tahoma;
+    font-size: 13px;
+    text-decoration: none;
+}
+body{
+    margin: 0 auto;
+    width: 780px;
+
+}
+#bg{
+    background: url(../imges/7.jpg) no-repeat center;
+    background-size: 100%;
+}
+/*---------------
+
+Header
+
+-----------------*/
+header{
+    background: url(../imges/4.jpg) no-repeat center;
+    background-size: 100%;
+    height: 250px;
+
+}
+
+.avata {
+    position: absolute;
+    z-index: 999;
+    margin: 48px 315px;
+}
+
+.avata > img {
+    border-radius: 7.3em;
+    height: 150px;
+    width: 170px;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+
+
+/*---------------
+
+main
+
+-----------------*/
+
+/*------------nav------------*/
+main {
+    height: 350px;
+}
+.navigator {
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+ul.menu{
+    margin: 0 auto;
+    width: 467px;
+}
+.menu li {
+    float: left;
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.menu > li {
+    width: 100px;
+}
+.menu > li > a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu > li > a:hover{
+    color: rgb(115, 200, 249);
+    font-size: 16px;
+    transition-delay: 300ms;
+}
+#information {
+
+    float: left;
+    clear: left;
+    width: 210px;
+
+
+}
+.text{
+    margin: 15px 0 15px 0;
+    opacity: 0.9;
+    border-radius: 2em;
+    height: 130px;
+    padding: 10px;
+    color: #fefef6;
+    background: url(../imges/8.jpg) no-repeat center;
+}
+#posts{
+    width: 567px;
+    margin: 0 auto;
+    float: right;
+}
+#posts .box-messger{
+    opacity: 0.9;
+    margin: 15px 0 15px 0;
+    height: 265px;
+    background-color: #ececec;
+    border-radius: 2.3em;
+    text-align: center;
+    line-height: 0;
+}
+#posts .box-messger > .text-hedding{
+    height: 30px;
+    float: left;
+    width: 100%;
+
+}
+.box-messger > .box-photo > img{
+    float: left;
+    width: 30px;
+    border-radius: 2.3em;
+
+}
+#posts .box-span > span{
+    float: left;
+}
+.box-span > span> img {
+    width: 187px;
+    height: 116.88px;
+    margin-right: 2px;
+}
+.box-span > span> img:hover{
+   opacity: 0.6;
+    transition-delay: 300ms;
+}
+img.zec {
+    border-bottom-right-radius: 2.0em;
+}
+img.zei {
+    border-bottom-left-radius: 2.0em;
+}
+/*---------------
+
+footer
+-----------------*/
+footer{
+    height: 40px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+.copyright > h3 {
+    text-align: center;
+    color: #ffffff;
+}

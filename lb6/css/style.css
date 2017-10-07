@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+.header,.post{
+    width: 770px;
+    margin: 0 auto;
+}
+
+/*---------------
+
+header
+
+------------------*/
+header{
+    height: 100px;
+    line-height: 100px;
+}
+.logo{
+    float: left;
+    clear: left;
+    width: 50%;
+}
+.logo > img {
+    width: 38px;
+}
+.logo > span{
+    font-weight: 500;
+    font-size: 23px;
+    margin: 14px;
+}
+.nav{
+    float: right;
+    clear: right;
+    width: 50%;
+}
+ul {
+    float: right;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+    width: 56px;
+}
+li a {
+    font-size: 16px;
+}
+/*---------------
+
+injecting
+
+------------------*/
+#injecting{
+    background-color: cornflowerblue;
+    height: 80px;
+}
+.text-injecting {
+    color: #ffffff;
+    padding-top: 23px;
+    width: 562px;
+    margin: 0 auto;
+}
+.text-injecting > p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.right{
+    float: right;
+}
+/*---------------
+
+post
+
+------------------*/
+#post{
+
+}
+.post-tag{
+    height: 432px;
+}
+.text-hedding {
+    padding: 0 0 10px 0;
+
+
+}
+#bg{
+    /*background: url('../imgaes/1.jpg') no-repeat center;*/
+    background-size: 100%;
+    opacity: 0.9;
+}
+.tag {
+    float: left;
+    width: 229px;
+    margin: 20px 25px 8px 0;
+}
+/*---------------
+
+footer
+
+------------------*/
+footer{
+    height: 50px;
+    background-color: cornflowerblue;
+}
+footer h4 {
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+}

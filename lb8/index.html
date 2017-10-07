@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>lb8</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+</header>
+	<form action="" method="post">
+		<fieldset>
+			<legend>Thông tin cơ bản</legend>
+			<label>Tên Tài Khoản	<input type="text" class="us" placeholder="Tên tài khoản đăng nhập." name="username" digits></label></br><br>
+			<label>Email		    <input type="text" class="em" placeholder="Email của bản." name="email"></label></br><br>
+			<label>Mật Khẩu         <input type="password" class="ps" placeholder="Mật khẩu đăng nhập." name="password"></label></br><br>
+			<label>Xác nhận mật khẩu<input type="password" class="psw" placeholder="Nhập lại mật khẩu." name="password"></label><br>
+		</fieldset>
+	
+	<br>
+	
+	<fieldset>
+			<legend>Thông tin chi tiết</legend>
+			<label>Họ và Tên<input type="text" class="na" placeholder="Họ và Tên." name="fullName" size="40"></label></br><br>
+			<label>Ngày Sinh</label>
+			<input type="date" name="birthDay" class="br">
+			</br><br>
+			<label>Giới Tính</label>
+			<input type="radio" class="ge" name="gende" maxlength="30" value="Male" checked="1">Nam
+			<input type="radio" name="gende" maxlength="30" value="Female">Nữ
+			</br><br>
+			<label>Sở Thích</label>
+			<input type="checkbox"  class="tt" name="favourite" value="Thể Thao"> Thể thao
+			<input type="checkbox"  name="favourite" value="Xem Phim"> Xem Phim
+			<input type="checkbox"  name="favourite" value="Nghe Nhạc" checked="1"> Nghe Nhạc
+			<input type="checkbox"  name="favourite" value="Đọc Sách" checked="1"> Đọc Sách
+			</br><br>
+			<label>Ảnh đại diện<input type="file" class="fi" name="avatar"></label></br><br>
+			<label>Giới thiệu về bản thân</label>
+			<textarea size="30">
+			</textarea>
+			<br>
+	</fieldset>
+	<br>
+	<div class="button">
+		<input type="button" value="Đăng ký" name="submit">
+		<input type="button" value="Làm Lại" name="reset">
+	</div>
+	</form>
+</body>
+</html>

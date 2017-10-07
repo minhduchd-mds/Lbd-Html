@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.header,.post{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*---------------
+
+header
+
+------------------*/
+header{
+    height: 60px;
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+}
+.header{
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    clear: left;
+    width: 50%;
+    padding: 12px 0 0 0;
+}
+.logo > img {
+    width: 38px;
+}
+.logo > span{
+    font-weight: 500;
+    font-size: 23px;
+    margin: 14px;
+}
+.nav{
+    float: right;
+    clear: right;
+    width: 50%;
+    padding: 12px 0 0 0;
+}
+ul {
+    float: right;
+    padding: 13px 11px  0  0;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+    width: 56px;
+}
+li a {
+    font-size: 16px;
+    display: block;
+}
+
+/*---------------
+
+post
+
+------------------*/
+.post-tag{
+    height: 670px;
+    padding: 0;
+}
+.tag{
+    width: 318px;
+    float: left;
+    display: block;
+    margin: 15px 0 15px 15px;
+}
+.stronup{
+    background: #cddde0 none repeat scroll 0 0;
+    border-radius: 5px;
+    bottom: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+    height: 32px;
+    line-height: 33px;
+    display: block;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 124px;
+    z-index: 1030;
+}
+/*---------------
+
+footer
+
+------------------*/
+footer{
+    height: 50px;
+    background-color: cornflowerblue;
+    display: block;
+}
+footer h4 {
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+}
